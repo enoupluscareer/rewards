@@ -14,6 +14,10 @@ const t3s=document.getElementById("t3s");
 var name,mobile,bal,t1,t2,t3;
 
 mobile=(getCookie("mobile"));
+if(mobile.length!=10)
+{
+  location.href="index.html";
+}
 
 
 loadUser();
