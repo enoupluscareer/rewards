@@ -43,6 +43,7 @@ function loadUser()
         userData.style.display="block";
         level.style.width=bal+"%";
         pbBal.innerHTML=bal;
+        if(t1=="1"&&t2=="1"&&t3=="1"){tasker.style.display="none";}
     
     });
 }
